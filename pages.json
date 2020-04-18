@@ -1,0 +1,116 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/my/shangwangzhanghaoguanli",
+			"style": {
+				"navigationBarTitleText": "上网账号管理"
+			}
+		},
+		{
+			"path": "pages/my/chongzhijilu",
+			"style": {
+				"navigationBarTitleText": "充值记录"
+			}
+		},
+
+		{
+			"path": "pages/my/iptvzhanghaoguanli",
+			"style": {
+				"navigationBarTitleText": "IPTV账号管理"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
+		},
+		{
+			"path": "pages/login/zhuce",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/login/wangjimima",
+			"style": {
+				"navigationBarTitleText": "忘记密码"
+			}
+		},
+		{
+			"path": "pages/my/usermanager",
+			"style": {
+				"navigationBarTitleText": "信息管理"
+			}
+		},
+		{
+			"path": "pages/news/msg_list",
+			"style": {
+				"navigationBarTitleText": "公告列表"
+			}
+		},
+		{
+			"path": "pages/news/news_list",
+			"style": {
+				"navigationBarTitleText": "新闻列表"
+			}
+		},
+		{
+			"path": "pages/news/news_detail",
+			"style": {
+				"navigationBarTitleText": "新闻详情"
+			}
+		},
+
+		{
+			"path": "pages/chongzhi/chongzhi_iptv",
+			"style": {
+				"navigationBarTitleText": "iptv充值"
+			}
+		},
+		{
+			"path": "pages/chongzhi/chongzhi_wangfei",
+			"style": {
+				"navigationBarTitleText": "网费充值"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#c1c1c1",
+		"selectedColor": "#1dadff",
+		"borderStyle": "black",
+		"backgroundColor": "#f5f5f5",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/shouyeno.png",
+				"selectedIconPath": "static/shouyeyes.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/wodeno.png",
+				"selectedIconPath": "static/wodeyes.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园充值",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

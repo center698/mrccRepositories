@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/shangwangzhanghaoguanli",
+    "pages/my/chongzhijilu",
+    "pages/my/iptvzhanghaoguanli",
+    "pages/my/my",
+    "pages/login/login",
+    "pages/login/zhuce",
+    "pages/login/wangjimima",
+    "pages/my/usermanager",
+    "pages/news/msg_list",
+    "pages/news/news_list",
+    "pages/news/news_detail",
+    "pages/chongzhi/chongzhi_iptv",
+    "pages/chongzhi/chongzhi_wangfei"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校园充值",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#c1c1c1",
+    "selectedColor": "#1dadff",
+    "borderStyle": "black",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/shouyeno.png",
+        "selectedIconPath": "static/shouyeyes.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/wodeno.png",
+        "selectedIconPath": "static/wodeyes.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取您的当前位置，为您推荐最新信息"
+    }
+  },
+  "usingComponents": {}
+}
