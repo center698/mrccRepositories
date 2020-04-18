@@ -11,7 +11,6 @@
 			</swiper>
 		</view>
 		
-		
 		<swiper style="width: 100%; height: 350rpx; " autoplay="true" circular="true" indicator-dots="true" indicator-color="#ffffff"
 		 indicator-active-color="#1dadff" interval="3000">
 			<block v-for="(item, index) in imgs" :key="index">
